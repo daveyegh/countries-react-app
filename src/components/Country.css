@@ -1,0 +1,13 @@
+.Country {
+    width: 100%;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.Country img {
+    max-width: 100%;
+}
+.Country h5 {
+    margin: 10px 0;
+}

@@ -1,0 +1,42 @@
+.CountryDetails {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 85px;
+}
+.CountryWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 40px 0;
+}
+.CountryText {
+    font-size: 19px;
+}
+.CountryImage {
+    max-width: 300px;
+    
+}
+
+.CountryDetails img {
+    max-width: 400px;
+    transition-duration: 0.5s;
+    margin: 10px;
+}
+.CountryDetails img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+@media (max-width: 768px) {
+    .CountryWrapper {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
