@@ -32,6 +32,43 @@
     transform: scale(1.1);
     transition-duration: 0.5s;
 }
+.CountryCovidInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: flex-start;
+    position: absolute;
+    left: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.CountryCovidColor {
+    width: 100%;
+    height: 5px;
+    border-radius: 3px;
+}
+.CountryCovidColor.red {
+    background: red;
+}
+.CountryCovidColor.black {
+    background: black;
+}
+.CountryCovidColor.green {
+    background: green;
+}
+.CountryCovidItem {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    min-width: 30%;
+}
+.CountryCovidTitle{ 
+    font-size: 35px;
+}
+.CountryCovidSubtitle {
+    font-size: 25px;
+    font-weight: 500;
+}
 @media (max-width: 768px) {
     .CountryWrapper {
         flex-direction: column;
